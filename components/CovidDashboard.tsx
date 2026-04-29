@@ -96,7 +96,7 @@ GROUP BY d.location LIMIT 200;`,
       sql: `SELECT location,
        MAX(total_cases) AS total_cases
 FROM covid_deaths
-WHERE continent IS NOT NULL
+WHERE continent IS NOT NULL AND total_cases IS NOT NULL
 GROUP BY location
 ORDER BY total_cases DESC LIMIT 40;`,
     },
@@ -106,7 +106,7 @@ ORDER BY total_cases DESC LIMIT 40;`,
       sql: `SELECT location,
        MAX(total_cases) AS total_cases
 FROM covid_deaths
-WHERE continent IS NOT NULL
+WHERE continent IS NOT NULL AND total_cases IS NOT NULL
 GROUP BY location
 ORDER BY total_cases ASC LIMIT 40;`,
     },
