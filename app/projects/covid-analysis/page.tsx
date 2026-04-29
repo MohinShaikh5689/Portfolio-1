@@ -7,7 +7,7 @@ import CovidDashboard from '@/components/CovidDashboard'
 const STATS = [
   { label: 'Datasets',  value: '2',         hint: 'Deaths & Vaccinations' },
   { label: 'Coverage',  value: '200+',       hint: 'Countries and regions' },
-  { label: 'Timeline',  value: '2020–2024',  hint: 'Historical range' },
+  { label: 'Timeline',  value: '2020–2021',  hint: 'Historical range' },
   { label: 'Metrics',   value: '6+',         hint: 'KPIs tracked' },
 ]
 
@@ -430,7 +430,7 @@ export default function CovidAnalysisPage() {
                 <h3 className="note-title">Data Notes</h3>
                 <ul className="note-list">
                   <li>Official data sources with standardized reporting.</li>
-                  <li>Daily historical coverage through 2024.</li>
+                  <li>Daily historical coverage through 2021.</li>
                   <li>Focus on reproducible queries and consistent metrics.</li>
                 </ul>
               </div>
