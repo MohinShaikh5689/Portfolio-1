@@ -11,7 +11,7 @@ const TABLEAU_EMBEDS = [
     staticImg: 'An/Anime-Dashboard-1/Dashboard1',
     mobileHeight: '1677px',
     label: 'Dashboard 01',
-    description: 'Genre trends, ratings & seasonal patterns',
+    description: 'Anime Popularity & Ratings Insights',
   },
   {
     id: 'viz1777477843339',
@@ -19,7 +19,7 @@ const TABLEAU_EMBEDS = [
     staticImg: 'An/Anime-Dashboard-2/Dashboard2',
     mobileHeight: '1477px',
     label: 'Dashboard 02',
-    description: 'Studio performance & episode analysis',
+    description: 'Anime Favorites & Audience Preference Insights',
   },
   {
     id: 'viz1777477958267',
@@ -27,7 +27,7 @@ const TABLEAU_EMBEDS = [
     staticImg: 'An/Anime-Dashboard-3/Dashboard3',
     mobileHeight: '1027px',
     label: 'Dashboard 03',
-    description: 'Popularity scores & viewer demographics',
+    description: 'Anime Studios, Ratings & Audience Analytics',
   },
 ]
 
@@ -38,7 +38,7 @@ const AIRBNB_EMBEDS = [
     staticImg: 'Ai/AirBNB-Dashboard-1/Dashboard1',
     mobileHeight: '1627px',
     label: 'Dashboard 01',
-    description: 'Pricing trends & neighbourhood breakdown',
+    description: 'Airbnb Revenue & Property Insights',
   },
   {
     id: 'viz1777478526344',
@@ -46,7 +46,7 @@ const AIRBNB_EMBEDS = [
     staticImg: 'Ai/AirBNB-Dashboard-2/Dashboard2',
     mobileHeight: '1127px',
     label: 'Dashboard 02',
-    description: 'Occupancy rates & host performance metrics',
+    description: 'Airbnb Pricing & Listing Insights',
   },
 ]
 
